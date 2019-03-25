@@ -1,0 +1,18 @@
+// This component sets up the Navigation bar
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-nav',
+  templateUrl: './nav.component.html',
+  styleUrls: ['./nav.component.scss']
+})
+export class NavComponent implements OnInit {
+
+  appTitle: String = 'myApp';
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
